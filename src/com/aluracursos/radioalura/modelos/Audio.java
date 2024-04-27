@@ -6,6 +6,8 @@ public class Audio {
     private int totalDeReproducciones;
     private int meGusta;
     private int totalDeMeGusta;
+    private int clasificacion;
+
     public void meGusta(){
         this.totalDeMeGusta++;
     }
@@ -51,5 +53,13 @@ public class Audio {
 
     public void setTotalDeMeGusta(int totalDeMeGusta) {
         this.totalDeMeGusta = totalDeMeGusta;
+    }
+
+    public int getClasificacion() {
+        return clasificacion;
+    }
+
+    public void setClasificacion(int clasificacion) {
+        this.clasificacion = clasificacion;
     }
 }
